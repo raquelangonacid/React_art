@@ -1,0 +1,29 @@
+.Painters{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Pintor{
+    background-color: #8a5f3595;
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Pintor:hover{
+    background-color: #8a6035;
+}
+
+.Nombre{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+}
+
+.Retrato{
+    width: 300px;
+
+}

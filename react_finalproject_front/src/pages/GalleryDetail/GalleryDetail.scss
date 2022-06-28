@@ -1,0 +1,34 @@
+.GalleryDetail{
+    background-color: #8a5f3595;
+    padding: 25px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    div{
+        h2{
+        color: whitesmoke;
+        }
+
+        p{
+            color: whitesmoke;
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+    }
+
+    img{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width:900px){
+    .GalleryDetail{
+          
+        img{
+            width: 300px;
+        }
+    }
+}

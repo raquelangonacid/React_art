@@ -1,0 +1,33 @@
+.Navigator{
+    height: 60px;
+    background-color: rgba(245, 245, 245, 0.7);
+    border-bottom: 3px solid #8a6035;
+    display: flex;
+    align-items: center;
+
+    .Navigator_ul{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    
+        li{
+            list-style: none;
+
+            &:hover{
+                transform: scale(1.2);
+                font-weight: 900;
+                text-decoration: underline;
+            }
+        }
+        
+        a{
+            color: #8a6035;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    }
+
+}
+
+
